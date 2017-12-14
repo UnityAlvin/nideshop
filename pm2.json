@@ -1,0 +1,16 @@
+{
+  "apps": [{
+    "name": "nideshop",
+    "script": "production.js",
+    "cwd": "/WebProject/nideshop",
+    "exec_mode": "fork",
+    "max_memory_restart": "256M",
+    "autorestart": true,
+    "instances": 1,
+    "node_args": [],
+    "args": [],
+    "env": {
+
+    }
+  }]
+}
